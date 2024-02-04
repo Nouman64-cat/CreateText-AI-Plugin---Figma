@@ -20,7 +20,7 @@ figma.ui.onmessage = async (pluginMessage) => {
         headers: {
           'Content-Type': 'application/json',
           // Add your API key or other necessary headers here
-          'Authorization': 'Bearer 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'
+          'Authorization': 'Bearer YOUR_API'
         },
         body: JSON.stringify({
           model: "text-davinci-002", // Specify the model you're using; check OpenAI documentation for model options.
